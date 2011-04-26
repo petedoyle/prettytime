@@ -4,7 +4,7 @@
 	<groupId>com.ocpsoft</groupId>
 	<artifactId>ocpsoft-pretty-time</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.6</version>
+	<version>1.0.6-nojsf</version>
 	<name>PrettyTime</name>
 	<description>Social networking style time-formatting utilities and web-framework integrations.</description>
 	<url>http://ocpsoft.com/prettytime</url>
@@ -50,13 +50,6 @@
 	</distributionManagement>
 
 	<dependencies>
-		<dependency>
-			<groupId>javax.faces</groupId>
-			<artifactId>jsf-api</artifactId>
-			<version>1.2_02</version>
-			<scope>provided</scope>
-		</dependency>
-
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
